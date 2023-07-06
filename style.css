@@ -1,3 +1,5 @@
+/* #region GLOBAL RULES */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -43,6 +45,8 @@ a {
     text-decoration: none;
 }
 
+/* #endregion GLOBAL RULES */
+
 /* #region HEADER */
 
 header {
@@ -77,7 +81,6 @@ main {
 
 .members_grid {
     justify-content: center;
-    margin: 0 auto;
 }
 
 .member_card {
