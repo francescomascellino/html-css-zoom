@@ -20,7 +20,7 @@ h1 {
     text-align: center;
 }
 
-body {}
+/* HEADER */
 
 header {
     position: sticky;
@@ -36,14 +36,16 @@ header {
     padding: 0.25rem
 }
 
+
+
 main {
     height: 960px;
     overflow-y: auto;
 }
 
-.container {
+/* .container {
     min-height: 960px;
-}
+} */
 
 .members_grid {
     width: 90%;
@@ -55,8 +57,6 @@ main {
     margin: 0.5rem;
     width: 250px;
 }
-
-
 
 nav {
     position: sticky;
