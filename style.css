@@ -7,6 +7,7 @@
 :root {
     --zzom-dark: #000000;
     --zoom-controls: #222222;
+    --zoom-speaker: #4a4a4a;
     --zoom-active: #4bc800;
     --zoom-light: #ffffff;
     --zoom-userbg: rgba(177, 178, 181, 0.50);
@@ -34,7 +35,11 @@ h1 {
     color: var(--zoom-light);
 }
 
-/* HEADER */
+a {
+    text-decoration: none;
+}
+
+/* #region HEADER */
 
 header {
     position: sticky;
@@ -47,10 +52,20 @@ header {
 
 .speaker_view {
     justify-content: flex-end;
-    padding: 0.25rem
+    /* padding: 0.3rem; */
 }
 
-/* MEMBERS GRID */
+.speaker_view a {
+    display: inline-block;
+    padding: 0.25rem;
+    margin: 0.3rem;
+    background-color: var(--zoom-speaker);
+    border-radius: 10%;
+}
+
+/* #endregion HEADER */
+
+/* #region MEMBERS GRID */
 
 main {
     height: calc(100vh - 6rem);
@@ -82,7 +97,9 @@ span.name {
     font-size: 0.9rem;
 }
 
-/* FOOTER NAVBAR */
+/* #endregion MEMBERS GRID */
+
+/* #region FOOTER NAVBAR */
 
 footer {
     background-color: var(--zoom-controls);
@@ -108,3 +125,5 @@ nav {
 .record {
     justify-content: flex-end;
 }
+
+/* #endregion FOOTER NAVBAR */
