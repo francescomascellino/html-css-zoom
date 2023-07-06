@@ -108,7 +108,6 @@ span.name {
 
 footer {
     background-color: var(--zoom-controls);
-    text-align: center;
 }
 
 nav {
@@ -133,7 +132,11 @@ nav {
 
 .control {
     padding: 1rem;
-    flex-flow: column wrap;
+    flex-direction: column;
+}
+
+.control:hover h1 {
+    text-shadow: whitesmoke 1px 0 10px;
 }
 
 .active {
@@ -144,21 +147,17 @@ nav {
     align-items: center;
 }
 
-.control:hover h1 {
-    text-shadow: whitesmoke 1px 0 10px;
-}
-
 .stop_rec {
     background-color: var(--zoom-rec);
-}
-
-.stop_rec:hover p {
-    text-shadow: red 1px 0 10px;
 }
 
 .stop_rec p {
     color: var(--zoom-end);
     padding: 2rem;
+}
+
+.stop_rec:hover p {
+    text-shadow: red 1px 0 10px;
 }
 
 /* #endregion FOOTER NAVBAR */
