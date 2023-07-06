@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.debug * {
+    border: 1px solid red;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.speaker_view {
+    justify-content: flex-end;
+    padding: 0.25rem
+}
