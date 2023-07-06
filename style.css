@@ -31,8 +31,14 @@ p,
 span,
 a,
 h1 {
-    text-align: center;
     color: var(--zoom-light);
+    text-align: center;
+}
+
+p,
+span,
+a {
+    font-size: 0.9rem;
 }
 
 a {
@@ -94,7 +100,6 @@ span.name {
     background-color: var(--zoom-userbg);
     padding: 0.2rem;
     line-height: 1.2rem;
-    font-size: 0.9rem;
 }
 
 /* #endregion MEMBERS GRID */
@@ -103,11 +108,12 @@ span.name {
 
 footer {
     background-color: var(--zoom-controls);
+    text-align: center;
 }
 
 nav {
     position: sticky;
-    height: 4rem;
+    height: 5rem;
     padding: 0.2rem;
     bottom: 0;
     left: 0;
@@ -124,6 +130,26 @@ nav {
 
 .record {
     justify-content: flex-end;
+}
+
+.control {
+    border: 1px solid black;
+    padding: 1rem;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.active {
+    color: var(--zoom-active);
+}
+
+.options {
+    display: flex;
+    align-items: center;
+}
+
+.control:hover h1 {
+    text-shadow: #4a4a4a;
 }
 
 /* #endregion FOOTER NAVBAR */
