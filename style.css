@@ -133,7 +133,6 @@ nav {
 }
 
 .control {
-    border: 1px solid black;
     padding: 1rem;
     flex-flow: column wrap;
 }
