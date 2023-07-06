@@ -11,6 +11,8 @@
     --zoom-active: #4bc800;
     --zoom-light: #ffffff;
     --zoom-userbg: rgba(177, 178, 181, 0.50);
+    --zoom-rec: #4a4a4a;
+    --zoom-end: #d0424a;
 }
 
 body {
@@ -74,7 +76,7 @@ header {
 /* #region MEMBERS GRID */
 
 main {
-    height: calc(100vh - 6rem);
+    height: calc(100vh - 7rem);
     overflow-y: auto;
 }
 
@@ -114,7 +116,6 @@ footer {
 nav {
     position: sticky;
     height: 5rem;
-    padding: 0.2rem;
     bottom: 0;
     left: 0;
     z-index: 10;
@@ -147,6 +148,15 @@ nav {
 
 .control:hover h1 {
     text-shadow: #4a4a4a;
+}
+
+.stop_rec {
+    background-color: var(--zoom-rec);
+}
+
+.stop_rec p {
+    color: var(--zoom-end);
+    padding: 2rem;
 }
 
 /* #endregion FOOTER NAVBAR */
