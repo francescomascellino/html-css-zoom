@@ -51,7 +51,7 @@ a {
 
 header {
     position: sticky;
-    height: 2rem;
+    height: 4em;
     top: 0;
     left: 0;
     z-index: 10;
@@ -60,6 +60,7 @@ header {
 
 .speaker_view {
     justify-content: flex-end;
+    align-items: center;
 }
 
 .speaker_view a {
@@ -75,7 +76,7 @@ header {
 /* #region MEMBERS GRID */
 
 main {
-    height: calc(100vh - 7rem);
+    height: calc(100vh - 4em - 5rem);
     overflow-y: auto;
 }
 
