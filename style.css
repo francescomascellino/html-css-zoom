@@ -81,10 +81,10 @@ main {
 
 .members_grid {
     justify-content: center;
+    gap: 0.5rem;
 }
 
 .member_card {
-    margin: 0.5rem;
     width: 250px;
     position: relative;
 }
